@@ -2,7 +2,7 @@
 
 A Discord bot that can extract messages from users and generate new messages from any corpus.
 
-It uses a simple Markov Chains algorithm and an n-gram model to generate the text
+It uses a simple Markov Chains algorithm and an n-gram model to generate the text.
 
 ## How to run
 
