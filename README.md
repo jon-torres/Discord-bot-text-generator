@@ -12,7 +12,7 @@ Clone this repository or download it and run the bot.py in a terminal/console.
   python3 bot.py
 ```
 
-Create a "corpus" directory the in the app's folder.
+Create a "corpus" directory in the app's folder.
 
 Once the bot is online. You and the server members can use the command !textgenhelp to get information about the bot's commands.
 
