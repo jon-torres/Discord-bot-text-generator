@@ -1,10 +1,10 @@
-from dotenv import load_dotenv
+import spacy
+import os
 import discord
 from discord.ext import commands
+from dotenv import load_dotenv
 from text_generator import generate_text
-import os
 from extract_messages import save_sentences_to_file, extract_user_messages
-import spacy
 
 load_dotenv()
 
