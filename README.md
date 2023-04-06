@@ -6,7 +6,7 @@ It uses a simple Markov Chains algorithm and an n-gram model to generate the tex
 
 ## How to run
 
-Clone this repository or download it and run the bot.py in a terminal/console.
+Clone this repository or download it and run bot.py in a terminal/console.
 
 ```bash
   python3 bot.py
@@ -14,7 +14,7 @@ Clone this repository or download it and run the bot.py in a terminal/console.
 
 Create a "corpus" directory in the app's folder.
 
-Once the bot is online. You and the server members can use the command !textgenhelp to get information about the bot's commands.
+Once the bot is online. The owner and the server members can use the command !textgenhelp to get information about the bot's commands.
 
 ## Features
 
@@ -24,5 +24,4 @@ Once the bot is online. You and the server members can use the command !textgenh
 
 ## Tech
 
-It's powered by the advanced Natural Language Processing library <a href="https://github.com/explosion/spaCy">spaCy</a>
-!
+It's powered by the advanced Natural Language Processing library <a href="https://github.com/explosion/spaCy">spaCy</a>!
