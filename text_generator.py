@@ -87,7 +87,7 @@ def generate_sentence(ngrams: defaultdict, n: int) -> str:
         prev_word1, prev_word2 = result[-2:]
         next_word_choices = list(ngrams[f"{prev_word1} {prev_word2}"].keys())
         if not next_word_choices:
-            result = []
+            result.clear()
             continue
         next_word = random.choice(next_word_choices)
         result.append(next_word)
