@@ -1,4 +1,4 @@
-from uptext import CORPUS_DIR
+from text_generator import CORPUS_DIR
 import os
 from typing import List
 import discord
