@@ -2,7 +2,7 @@
 
 A Discord bot that can extract messages from users and generate new messages from any corpus.
 
-It uses a simple Markov Chains algorithm and an n-gram model to generate the text.
+It uses a Markov Chains algorithm and an n-gram model to generate the text.
 
 ## How to run
 
@@ -14,7 +14,7 @@ Clone this repository or download it and run bot.py in a terminal/console.
 
 Create a "corpus" directory in the app's folder.
 
-Once the bot is online. The owner and the server members can use the command !textgenhelp to get information about the bot's commands.
+Once the bot is running, the owner or the server members can use the command !textgenhelp to get information about the bot's commands.
 
 ## Features
 
