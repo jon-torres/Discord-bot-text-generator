@@ -34,7 +34,7 @@ def run_discord_bot():
                                   description="Here are the available commands:", color=0x00ff00)
             embed.add_field(
                 name="!gen <user> or /gen", value="Generate a message for a user.", inline=False)
-            embed.add_field(name="!extract_messages <channel_id> <user_id> or /extract_messages",
+            embed.add_field(name="!extract_messages <channel_id> <user_id>",
                             value="Extract messages sent by a specific user in a channel.", inline=False)
             embed.add_field(name="!corpus_list",
                             value="List available files in the corpus directory.", inline=False)
@@ -60,7 +60,7 @@ def run_discord_bot():
         text = generate_text(user)
         await ctx.send(text)
 
-    @bot.hybrid_command()
+    @bot.command()
     @commands.is_owner()
     async def extract_messages(ctx, channel_id: int, user_id: int):
         print('Extracting messages!')
