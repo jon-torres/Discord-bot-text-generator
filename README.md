@@ -19,8 +19,8 @@ Once the bot is running, the owner or the server members can use the command !te
 ## Features
 
 - Extract messages from users in a given channel.
-- Generates new messages based on the given corpus.
-  <br>It's important to keep in mind that the generated text is highly dependent on the given corpus, so make any necessary tweaks to the preprocessing.<br>
+- Generates new messages based on the given corpus or any corpus.
+  <br>It's important to keep in mind that the generated text is highly dependent on the corpus, so make any necessary tweaks to the preprocessing.<br>
 
 ## Tech
 
