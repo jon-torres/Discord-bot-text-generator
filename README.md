@@ -15,7 +15,7 @@ It uses a Markov Chains algorithm and an n-gram model to generate the text.
   python3 bot.py
 ```
 
-Once the bot is running, the owner or the server members can use the command !textgenhelp to get information about the bot's commands.
+Once the bot is running, the owner or the server members can use the command !textgenhelp – in the chat – to get information about the bot's commands.
 
 ## Features
 
