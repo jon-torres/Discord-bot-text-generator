@@ -9,7 +9,7 @@ It uses a Markov Chains algorithm and an n-gram model to generate the text.
 1. Clone this repository or download it. 
 2. Create a "corpus" directory in the app's folder.
 3. Open your terminal/console and navigate to the app's folder.
-4. Run bot.py in a terminal/console.
+4. Run bot.py using the command below.
 
 ```bash
   python3 bot.py
